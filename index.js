@@ -49,7 +49,7 @@ class Server {
     </form>
     </body>
     </html>`);
-    res.end();
+    res.end(); 
   }
 }
 const server = new Server(3050);
